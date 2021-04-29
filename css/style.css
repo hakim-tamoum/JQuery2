@@ -1,0 +1,10 @@
+.my-container {
+    margin: 50px auto;
+    width: 800px
+}
+ul {list-style: none; padding: 0;margin: 0;}
+li {display: inline-block; padding: 10px; background: #EEE; text-align: center;cursor: pointer;border: 1px solid #BBB; border-bottom: none; margin-right: 5px}
+ul li.inactive {background: #CCC}
+.my-container div {background: #EEE; height: 144px; width: 390px}
+.my-container div:not(:first-of-type) {display: none}
+.my-container div p {margin: 0; padding: 5px; border: 1px solid #BBB; border-top: none; font-family: sans-serif}
